@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" sizes="32x32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <div class="topbarXmob">
+        <div class="tpbxm-left default">
+            Good Afternoon
+        </div>
+        <div class="tpbxm-right pointer">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </div>
+    </div>
+    <div class="topbar">
+        <div class="tpb-left">
+                <i class="fa-brands fa-spotify"></i>
+            </a>
+        </div>
+        <div class="rit tpb-center" style="justify-self: center;">
+            <div class="tpb-c-circle hmcr">
+                <i class="fa-solid fa-house"></i>
+                <div class="tpb-c-c-overlay">
+                    Home
+                </div>
+            </div>
+            <div class="tpb-c-c-search relative" tabindex="0">
+                <div class="tpb-c-c-overlay-2 flex-center-wrap">
+                    <div class="box flex-align-center">Ctrl</div>
+                    <div class="box flex-align-center">K</div>
+                </div>
+                <i class="fa-solid fa-magnifying-glass" style="margin-left: 5px;">
+                    <div class="tpb-c-c-overlay">
+                        Search
+                    </div>
+                </i>
+                <input type="text" placeholder="What do you want to play?" tabindex="0">
+                <i class="fa-solid fa-window-maximize">
+                    <div class="tpb-c-c-overlay">
+                        Browse
+                    </div>
+                </i>
+            </div>
+        </div>
+        <div class="tpb-right flex-align-center">
+            <div class="btn flex-center-wrap expp" style="margin: 0px; margin-right: 20px;">
+                Explore Premium
+            </div>
+            <div class="tpb-r-text flex-align-center bold">
+                <i class="fa-regular fa-circle-down"></i>
+                install app
+            </div>
+            <div class="tpb-r-icon flex-align-center relative">
+                <i class="fa-regular fa-bell"></i>
+                <div class="tpb-c-c-overlay">
+                    What's New
+                </div>
+            </div>
+            <div class="tpb-r-profile flex-center-wrap bold relative">
+                V
+                <div class="tpb-c-c-overlay">
+                    Vikas Tak
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main flex">
+        <div class="main-left">
+            <div class="m-l-top flex-between flex-align-center">
+                <div class="m-l-t-l flex-align-center relative">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                    <div class="m-l-t-b bold">
+                        Your Library
+                    </div>
+                    <div class="tpb-c-c-overlay">
+                        Collapse Your Library
+                    </div>
+                </div>
+                <div class="m-l-t-r flex-align-center">
+                    <div class="circle flex-center-wrap relative">
+                        <i class="fa-solid fa-plus"></i>
+                        <div class="tpb-c-c-overlay">
+                            Create playlist or folder
+                        </div>
+                    </div>
+                    <div class="circle flex-center-wrap relative">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <div class="tpb-c-c-overlay">
+                            Show More
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-l-box-1">
+                <div class="m-l-b-text bold">
+                    Create Your First Playlist
+                </div>
+                <div class="m-l-b-text-small">
+                    It's easy,we'll help you
+                </div>
+                <div class="btn flex-center-wrap">
+                    Create playlist
+                </div>
+            </div>
+            <div class="m-l-box-1" style="margin-top: 25px;">
+                <div class="m-l-b-text bold">
+                    Let's Find Some podcasts to follow
+                </div>
+                <div class="m-l-b-text-small">
+                    We;ll keep you updated on new episodes
+                </div>
+                <div class="btn flex-center-wrap">
+                    Browse podcasts
+                </div>
+            </div>
+        </div>
+        <div class="main-right relative">
+            <div class="m-r-top"></div>
+            <div class="m-r-topbar flex-center-wrap">
+                <div class="btn-1 flex-center-wrap" style="margin: 0px">
+                    All
+                </div>
+                <div class="btn-2 flex-center-wrap" style="margin: 0px">
+                    Music
+                </div>
+                <div class="btn-2 flex-center-wrap" style="margin: 0px">
+                    Podcasts
+                </div>
+            </div>
+            <div class="m-r-main relative">
+                <div class="flex-between">
+                    <div class="heading bold">Popular artists</div>
+                    <div class="heading heading-1 small bold">Show All</div>
+                </div>
+                <div class="row-2 row flex-between relative">
+                    <div class="r-1-box-1  r-1-box r-2-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Arijit Singh</div>
+                            Artist
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box r-2-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616100005174bc7e4fffd515b47ff1ebbc1f" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Yo Yo Honey Singh</div>
+                            Artist
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box r-2-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616100005174fb13d10be20fdcb5a670f551" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Vishal Mishra</div>
+                            Artist
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box r-2-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Atif Aslam</div>
+                            Artist
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box r-2-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">A. R. Rahman</div>
+                            Artist
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box r-2-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Anirudh Ravichander</div>
+                            Artist
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box r-2-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Vishal-Shekher</div>
+                            Artist
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box r-2-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616100005174d65723b2f4cf4d47f62a9f89" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Jasleen Royal</div>
+                            Artist
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box r-2-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Pritam</div>
+                            Artist
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box r-2-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab676161000051748094cf9aa2f6ed775614c073" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Sachin-Jigar</div>
+                            Artist
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-between">
+                    <div class="heading bold">Popular Radio</div>
+                    <div class="heading small heading-1 bold">Show All</div>
+                </div>
+                <div class="row-1 row flex-between relative">
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2ae6PxICSOZHvjqiCcgon8/en-GB"
+                            alt="Image" width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            With Deva, Swarnalatha, <br> Annamayya Keerthana...
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3m49WVMU4zCkaVEKb8kFW7/en-GB"
+                            alt="Image" width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            With Sachin-Jigar, <br> Mithoon, Pritam...
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en-GB"
+                            alt="Image" width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            With K. J. Yesudas, <br> Swarnalatha, Uma...
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en-GB"
+                            alt="Image" width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            With A.R. Rahman, <br> Vishal-Shekhar, Atif Aslam...
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2oSONSC9zQ4UonDKnLqksx/en-GB"
+                            alt="Image" width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            With Sachin-Jigar, <br> Darshan Raval, A.R. ...
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/en-GB"
+                            alt="Image" width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            With Harris Jayaraj, <br> Anirudh, Santhosh...
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en-GB"
+                            alt="Image" width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            With Armaan Malik, <br> Mohit Chauhan, Ankit...
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <a class="playableA" href="goat-diljeet.html">
+                        <div class="r-1-box-1 playable r-1-box flex-center-wrap relative">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en-GB"
+                                alt="Image" width="100%" height="100%">
+                            <div class="r-1-b-text">
+                                With Karan Aujla, Shubh,<br> Sidhu Moose Wala...
+                            </div>
+                            <div class="r-b-overlay flex-center-wrap relative">
+                                <i class="fa-solid fa-play"></i>
+                                <div class="tpb-c-c-overlay">
+                                    Play {Music Name}
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="playableA" href="goat-diljeet.html">
+                        <div class="r-1-box-1 playable r-1-box flex-center-wrap relative">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/7uIbLdzzSEqnX0Pkrb56cR/en-GB"
+                                alt="Image" width="100%" height="100%">
+                            <div class="r-1-b-text">
+                                With Diljit Dosanjh,<br> Badshah, Guru Randhawa...
+                            </div>
+                            <div class="r-b-overlay flex-center-wrap">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4K6blSRoklNdpw4mzLxwfn/en-GB"
+                            alt="Image" width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            With Asha Bhosle,<br> Abhijeet, Vinod Rathod...
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-between">
+                    <div class="heading bold">Popular Albums and Singles</div>
+                    <div class="heading small heading-1 bold">Show All</div>
+                </div>
+                <div class="row-1 row flex-between relative">
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Glory</div>
+                            <div class="underline"> Yo Yo Honey Singh </div>
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Aashiqui 2</div>
+                            <div class="flex-wrap">
+                                <div class="underline">Mithoon</div>,
+                                <div class="underline">Ankit</div>,
+                                <div class="underline"> Jeet...</div>
+                            </div>
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Yeh Jawaani Hai Deewani</div>
+                            <div class="underline"> Pritam</div>
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616d00001e027f35adfbec3bb2bc8256802b" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Who (Remixes)</div>
+                            <div class="underline">Jimin</div>
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Macking Memories</div>
+                            <div class="flex-wrap">
+                                <div class="underline">Karan Aujila</div>,
+                                <div class="underline">lkky</div>
+                            </div>
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616d00001e0279f4a87c23143f0abb14c279" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Mismatched: Season 3 </div>
+                            <div class="underline">Mismatched - Cast</div>
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Jo Tum Mere Ho</div>
+                            <div class="underline">Anuv Jain</div>
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02b5e7944443cec785db91184b" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Sahiba</div>
+                            <div class="flex-wrap">
+                                <div class="underline">Jasleen Royal</div>,
+                                <div class="underline">Stebin</div>,
+                                <div class="underline">Vijay</div>...
+                            </div>
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616d00001e021aa5adad8593923dcdf1a7d0" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Ultimate Love Songs</div>
+                            <div class="underline">Arijit Singh</div>
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="r-1-box-1 r-1-box flex-center-wrap relative">
+                        <img src="https://i.scdn.co/image/ab67616d00001e0209c9bf421422262c368009d6" alt="Image"
+                            width="100%" height="100%">
+                        <div class="r-1-b-text">
+                            <div class="bold underline">Patandar</div>
+                            <div class="flex-wrap">
+                                <div class="underline">Arjan Dhillon</div>,
+                                <div class="underline">Mxrci</div>
+                            </div>
+                        </div>
+                        <div class="r-b-overlay flex-center-wrap relative">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="tpb-c-c-overlay">
+                                Play {Music Name}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-between">
+                    <div class="heading bold">Recently Played</div>
+                    <div class="heading small heading-1 bold">Show All</div>
+                </div>
+                <div class="row-1 row flex relative">
+                    <a class="abcd" href="bebe-bapu.html">
+                        <div class="r-1-box-1 animation r-1-box flex-center-wrap relative">
+                            <img src="https://i.scdn.co/image/ab67616d00001e024d457bfbe0af7e2518471e13" alt="Image"
+                                width="100%" height="100%">
+                            <div class="r-1-b-text">
+                                <div class="bold underline">Bebe Bapu</div>
+                            </div>
+                            <div class="r-b-overlay flex-center-wrap relative">
+                                <i class="fa-solid fa-play"></i>
+                                <div class="tpb-c-c-overlay">
+                                    Play Bebe  Bapu
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="abcd" href="goat-diljeet.html">
+                        <div class="r-1-box-1 animation r-1-box flex-center-wrap relative">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en-GB"
+                                alt="Image" width="100%" height="100%">
+                            <div class="r-1-b-text">
+                                Born to Shine
+                            </div>
+                            <div class="r-b-overlay flex-center-wrap relative">
+                                <i class="fa-solid fa-play"></i>
+                                <div class="tpb-c-c-overlay">
+                                    Play Born to Shine
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="abcd" href="sanso-ki-mala.html">
+                        <div class="r-1-box-1 animation r-1-box flex-center-wrap relative">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02c496b121fef2402c04bf80ee" alt="Image"
+                                width="100%" height="100%">
+                            <div class="r-1-b-text">
+                                <div class="bold underline">Sanso Ki Mala Pe</div>
+                            </div>
+                            <div class="r-b-overlay flex-center-wrap relative">
+                                <i class="fa-solid fa-play"></i>
+                                <div class="tpb-c-c-overlay">
+                                    Play Sanso ki Mala Pe
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="big-head">
+                        <i class="fas fa-arrow-left"></i> Playable
+                    </div>
+                </div>
+                <div class="last-row flex-wrap relative">
+                    <div class="l-r-box l-r-left relative">
+                        <div class="l-r-b-img flex-align-center">
+                            <img src="https://i.scdn.co/image/ab67616d0000b273a7157b8f7eed2878e2618d81" width="100%"
+                                height="100%" alt="">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2731d1cc2e40d533d7bcebf5dae" width="100%"
+                                height="100%" alt="">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2730455c40fd0e62365d8223bfe" width="100%"
+                                height="100%" alt="">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2732d8f246ba6e265b30b5b2463" width="100%"
+                                height="100%" alt="">
+                            <!-- <img src="https://i.scdn.co/image/ab67616d0000b2732887dab38f4d19dfe47869aa" width="100%" height="100%" alt=""> -->
+                        </div>
+                        <div class="l-r-b-overlay flex bold">
+                            <div class="l-r-b-o-left">
+                                <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/42TuhqUBzIpywk1h4QlUyT/en-GB"
+                                    width="95px" height="95px" alt="">
+                            </div>
+                            <div class="l-r-b-o-right">
+                                <h5>Komal</h5>
+                                <h5>Choudhary Radio</h5>
+                            </div>
+                        </div>
+                        <div class="right-circle flex-center-wrap">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="right-circle left flex-center-wrap" style="left: 10px;">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="l-r-b-overlay-bottom">
+                            <div class="l-r-b-o-b-text flex-align-center">
+                                <div class="underline">
+                                    Gagan Haryanvi,
+                                </div>
+                                <div class="underline">
+                                    Pawan Pilania
+                                </div>
+                                <div>&nbsp;and&nbsp;</div>
+                                <div class="underline">
+                                    Gajender Phogat
+                                </div>
+                            </div>
+                            <div class="l-r-b-o-b-bottom flex-between">
+                                <div class="l-r-b-o-b-b-left flex-align-center">
+                                    <i class="fa-solid fa-volume-xmark"></i> Preview
+                                </div>
+                                <div class="l-r-b-o-b-b-right flex-align-center">
+                                    <i class="fa-solid fa-ellipsis pl relative" style="font-size: 30px;">
+                                        <div class="tpb-c-c-overlay" style="top: -20px; left: -10px;">
+                                            More
+                                        </div>
+                                    </i>
+                                    <div class="l-r-b-o-b-b-r-circle relative">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <div class="tpb-c-c-overlay">
+                                            Save To Your Library
+                                        </div>
+                                    </div>
+                                    <div class="l-r-b-o-b-b-r-play relative flex-center-wrap">
+                                        <i class="fa-solid fa-play"></i>
+                                        <div class="tpb-c-c-overlay">
+                                            Play
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-r-b-overlay-bottom-1"></div>
+                    </div>
+                    <div class="l-r-box l-r-center relative">
+                        <div class="l-r-b-img flex-align-center">
+                            <video loop src="images/2.mp4" autoplay muted width="700" height="100%"
+                                style="transform: scale(2);"></video>
+                            <img src="images/1.jpg" width="100%" height="100%" style="margin-left: 160px;" alt="">
+                            <img src="images/3.jpg" width="100%" height="100%" alt="">
+                            <img src="images/4.jpg" width="100%" height="100%" alt="">
+                        </div>
+                        <div class="l-r-b-overlay flex bold">
+                            <div class="l-r-b-o-left">
+                                <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3OQRPFFS3OsltFjFAXu1kE/en-GB"
+                                    width="95px" height="95px" alt="">
+                            </div>
+                            <div class="l-r-b-o-right">
+                                <h5>Parmish</h5>
+                                <h5>Verma Radio</h5>
+                            </div>
+                        </div>
+                        <div class="right-circle flex-center-wrap">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="right-circle left flex-center-wrap" style="left: 10px;">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="l-r-b-overlay-bottom">
+                            <div class="l-r-b-o-b-text flex-align-center">
+                                <div class="underline">
+                                    With Shubh,
+                                </div>
+                                <div class="underline">
+                                    Varinder Brar,
+                                </div>
+                                <div>&nbsp;and&nbsp;</div>
+                                <div class="underline">
+                                    Karan Aujla
+                                </div>
+                            </div>
+                            <div class="l-r-b-o-b-bottom flex-between">
+                                <div class="l-r-b-o-b-b-left flex-align-center">
+                                    <i class="fa-solid fa-volume-xmark"></i> Preview
+                                </div>
+                                <div class="l-r-b-o-b-b-right flex-align-center">
+                                    <i class="fa-solid fa-ellipsis pl relative" style="font-size: 30px;">
+                                        <div class="tpb-c-c-overlay" style="top: -20px; left: -10px;">
+                                            More
+                                        </div>
+                                    </i>
+                                    <div class="l-r-b-o-b-b-r-circle relative">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <div class="tpb-c-c-overlay">
+                                            Save To Your Library
+                                        </div>
+                                    </div>
+                                    <div class="l-r-b-o-b-b-r-play relative flex-center-wrap">
+                                        <i class="fa-solid fa-play"></i>
+                                        <div class="tpb-c-c-overlay">
+                                            Play
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-r-b-overlay-bottom-1"></div>
+                    </div>
+                    <div class="l-r-box l-r-right relative">
+                        <div class="l-r-b-img flex-align-center">
+                            <img src="https://i.scdn.co/image/ab67616d0000b27329fc8f5c12bdaeb322cbbd80" width="100%"
+                                height="100%" alt="">
+                            <video loop src="images/7.mp4" autoplay muted width="700" height="100%"
+                                style="transform: scale(1.6); margin: 340px 110px;"></video>
+                            <img src="images/5.jpg" width="100%" height="100%" alt="">
+                            <!-- <img src="images/6.jpg" width="100%" height="100%" alt=""> -->
+                        </div>
+                        <div class="l-r-b-overlay flex bold">
+                            <div class="l-r-b-o-left">
+                                <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/track/4BoFJMLSO3ZoD48KgnslSe/en-GB"
+                                    width="95px" height="95px" alt="">
+                            </div>
+                            <div class="l-r-b-o-right">
+                                <h5>Mere Humsafar</h5>
+                                <h5>(Original Score)</h5>
+                                <h5>[Female Version]..</h5>
+                            </div>
+                        </div>
+                        <div class="right-circle flex-center-wrap">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="right-circle left flex-center-wrap" style="left: 10px;">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="l-r-b-overlay-bottom">
+                            <div class="l-r-b-o-b-text flex-align-center">
+                                <div class="underline">
+                                    With Shubh,
+                                </div>
+                                <div class="underline">
+                                    Varinder Brar,
+                                </div>
+                                <div>&nbsp;and&nbsp;</div>
+                                <div class="underline">
+                                    Karan Aujla
+                                </div>
+                            </div>
+                            <div class="l-r-b-o-b-bottom flex-between">
+                                <div class="l-r-b-o-b-b-left flex-align-center">
+                                    <i class="fa-solid fa-volume-xmark"></i> Preview
+                                </div>
+                                <div class="l-r-b-o-b-b-right flex-align-center">
+                                    <i class="fa-solid fa-ellipsis pl relative" style="font-size: 30px;">
+                                        <div class="tpb-c-c-overlay" style="top: -20px; left: -10px;">
+                                            More
+                                        </div>
+                                    </i>
+                                    <div class="l-r-b-o-b-b-r-circle relative">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <div class="tpb-c-c-overlay">
+                                            Save To Your Library
+                                        </div>
+                                    </div>
+                                    <div class="l-r-b-o-b-b-r-play relative flex-center-wrap">
+                                        <i class="fa-solid fa-play"></i>
+                                        <div class="tpb-c-c-overlay">
+                                            Play
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-r-b-overlay-bottom-1"></div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer-top flex-between">
+                        <div class="f-t-box f-t-box-1">
+                            <div class="f-t-b-heading bold">
+                                Company
+                            </div>
+                            <div class="f-t-b-text underline">
+                                About
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Jobs
+                            </div>
+                            <div class="f-t-b-text underline">
+                                For the Record
+                            </div>
+                        </div>
+                        <div class="f-t-box f-t-box-2">
+                            <div class="f-t-b-heading bold">
+                                Communities
+                            </div>
+                            <div class="f-t-b-text underline">
+                                For Artists
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Developers
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Advertising
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Investors
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Vendors
+                            </div>
+                        </div>
+                        <div class="f-t-box f-t-box-3">
+                            <div class="f-t-b-heading bold">
+                                Useful links
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Support
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Free Mobile App
+                            </div>
+                        </div>
+                        <div class="f-t-box f-t-box-4">
+                            <div class="f-t-b-heading bold">
+                                Spotify Plans
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Premium Individual
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Premium Duo
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Premium Family
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Premium Student
+                            </div>
+                            <div class="f-t-b-text underline">
+                                Spotify Free
+                            </div>
+                        </div>
+                        <div class="f-t-box f-t-box-5 flex-between">
+                            <a href="https://instagram.com">
+                                <div class="f-t-b-circle">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </a>
+                            <a href="https://twitter.com">
+                                <div class="f-t-b-circle">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                            </a>
+                            <a href="https://facebook.com">
+                                <div class="f-t-b-circle">
+                                    <i class="fab fa-facebook-square"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hr" style="margin: 50px auto;"></div>
+                    <div class="footer-bottom flex-between">
+                        <div class="f-b-text flex-between">
+                            <div class="white-hover">Legal</div>
+                            <div class="white-hover">Safety & Privacy Center</div>
+                            <div class="white-hover">Privacy Policy</div>
+                            <div class="white-hover">Cookies</div>
+                            <div class="white-hover">About Ads</div>
+                            <div class="white-hover">Accessibility</div>
+                        </div>
+                        <div class="f-b-text-right">
+                            © 2025 Spotify AB.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
